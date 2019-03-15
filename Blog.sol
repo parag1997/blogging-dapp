@@ -51,6 +51,7 @@ contract BlogDemo{
     }
     
     function generateToken(uint _voteCount) public view returns(uint) {
+        //simple logic
          blogToken = _voteCount / 2;
          return blogToken;
     }
